@@ -17,11 +17,11 @@ AbCdEfG
 """
 
 
-st = input()
+st = input('입력')
 result = ""
 
 for c in st:
-    # "A" 이상 "Z" 이하이면 대문자입니다.
+
     if "A" <= c <= "Z":
         result += c.lower()
     else:
